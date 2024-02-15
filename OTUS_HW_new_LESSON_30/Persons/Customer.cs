@@ -23,7 +23,7 @@ namespace OTUS_HW_new_LESSON_30.Persons
 
         public override Customer MyClone()
         {
-            return new Customer((Passport)Passport.Clone(), Id, BookingId, CreditCard);
+            return new Customer((Passport)Passport.Clone(), Id, BookingId, (CreditCard)CreditCard.Clone());
         }
     }
 }

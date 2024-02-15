@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTUS_HW_new_LESSON_30", "OTUS_HW_new_LESSON_30\OTUS_HW_new_LESSON_30.csproj", "{8A271847-5AF8-4A26-BE9D-B422BEB9AEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OTUS_HW_new_LESSON_30", "OTUS_HW_new_LESSON_30\OTUS_HW_new_LESSON_30.csproj", "{8A271847-5AF8-4A26-BE9D-B422BEB9AEA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTUS_HW_new_LESSON_30_Test", "OTUS_HW_new_LESSON_30_Test\OTUS_HW_new_LESSON_30_Test.csproj", "{6F6BDB5C-BB31-4415-A209-1B54D28C7DD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8A271847-5AF8-4A26-BE9D-B422BEB9AEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A271847-5AF8-4A26-BE9D-B422BEB9AEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A271847-5AF8-4A26-BE9D-B422BEB9AEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6BDB5C-BB31-4415-A209-1B54D28C7DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6BDB5C-BB31-4415-A209-1B54D28C7DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6BDB5C-BB31-4415-A209-1B54D28C7DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6BDB5C-BB31-4415-A209-1B54D28C7DD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

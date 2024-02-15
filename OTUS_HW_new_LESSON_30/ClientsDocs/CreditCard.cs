@@ -9,7 +9,7 @@ namespace OTUS_HW_new_LESSON_30.ClientsDocs
     /// <summary>
     /// Класс, представляющий кредитную карту.
     /// </summary>
-    public class CreditCard
+    public class CreditCard: ICloneable
     {
         /// <summary>
         /// Id карты внутри системы.
@@ -31,6 +31,10 @@ namespace OTUS_HW_new_LESSON_30.ClientsDocs
             Id = id; 
             Owner = owner; 
             CardNumber = cardNumber;
+        }
+        public virtual object Clone()
+        {
+            return this.MemberwiseClone();
         }
     }
 }
